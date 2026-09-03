@@ -18,9 +18,9 @@ Unlike BDS, Endstone, or PowerNukkitX itself, Reactium intentionally implements 
 
 | | Reactium | PowerNukkitX | BDS | Endstone |
 |---|---|---|---|---|
-| Base | PowerNukkitX fork | — | Official | PowerNukkitX-based |
+| Base | PowerNukkitX fork | — | Official | BDS-based |
 | Item/Block coverage | Minimal (curated subset) | Extensive | Full (vanilla) | Full (vanilla) |
-| Philosophy | Lightweight, PocketMine-like | Feature-rich | Official reference | Full-featured API layer |
+| Philosophy | Lightweight, PocketMine-like | Feature-rich | Official reference | Plugin API layer over BDS |
 
 ## Installation
 
