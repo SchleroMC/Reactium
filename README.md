@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD033 -->
 <p align="center">
     <a href="https://powernukkitx.org">
-      <img src="https://i.imgur.com/mcnFH9V.png width=20% alt="PNX Logo">
+      <img src="https://i.imgur.com/mcnFH9V.png width=20%" alt="Reactium Logo">
     </a>
     <p align="center">
         <strong>
