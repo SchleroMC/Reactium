@@ -1,63 +1,46 @@
-<!-- markdownlint-disable MD033 -->
-<p align="center">
-    <a href="https://powernukkitx.org">
-      <img src="https://i.imgur.com/mcnFH9V.png width=20%" alt="Reactium Logo">
-    </a>
-    <p align="center">
-        <strong>
-            A Minecraft Bedrock Edition Server Software, open source and written in java
-            <br>
-            Not affiliated with Mojang AB.
-        </strong>
-    </p>
-</p>
+# Reactium
 
-<p align="center">
-  <img src="https://img.shields.io/github/v/release/PowerNukkitX/PowerNukkitX?label=version&sort=semver" alt="Version">
-  <img src="https://img.shields.io/badge/minecraft-v26.45%20(Bedrock)-56383E" alt="Minecraft">
-  <img src="https://img.shields.io/badge/protocol-2169-blue" alt="Protocol">
-  <img src="https://img.shields.io/badge/action-all%20builds-FF9B21" alt="Action">
-  <img src="https://img.shields.io/discord/944227466912870410?label=discord&color=7289DA&logo=discord" alt="Discord">
-  <img src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" alt="Documentation">
-  <img src="https://codecov.io/github/PowerNukkitX/PowerNukkitX/graph/badge.svg?token=84HDP13KC3" alt="Codecov">
-  <img src="https://app.codacy.com/project/badge/Grade/756e509c721e4c7296ec98bca95194d9" alt="Codacy">
-  <img src="https://img.shields.io/badge/License-LGPL--3-yellow.svg" alt="License">
-</p>
+Reactium is a lightweight Minecraft: Bedrock Edition server software, forked from [PowerNukkitX](https://github.com/PowerNukkitX/PowerNukkitX).
 
-<br>
+Unlike BDS, Endstone, or PowerNukkitX itself, Reactium intentionally implements a **smaller subset of items and blocks**, following a minimalist philosophy closer to PocketMine-MP. The goal is a leaner, simpler core that's easier to maintain and extend, rather than full parity with vanilla content.
 
-**Feature-rich, highly customizable third-party server software for Minecraft: Bedrock Edition.**
+## Philosophy
 
-- 🪄 Custom Item, Block and Entity support
-- 🤖 Vanilla-like Mob AI
-- 🪴 Vanilla World Generation
-- ✏️ Full Vanilla Command Support
-- 🗃️ Full Item, Block and Container Support
-- 🗿 More features to discover...
+- **Minimal by design** — not every item/block from vanilla Bedrock is implemented. If it's rarely used or adds excessive maintenance overhead, it may be left out (at least initially).
+- **Built on proven ground** — Reactium inherits PowerNukkitX's performance-oriented architecture rather than starting from scratch.
+- **Open and modifiable** — released as open source so the community can extend, fork, and adapt it.
 
-## 🛠️ Getting Started
+## Status
 
-To get started, check out our [documentation](https://powernukkitx.org/docs/).
+🚧 Early development / actively forked from PowerNukkitX. Expect missing features, breaking changes, and incomplete item/block coverage while the project stabilizes.
 
-## ❤️ Community & Support
+## Comparison
 
-Join our [Discord](https://discord.gg/apwd7uauZg) server to chat with other users, developers and server owners.
+| | Reactium | PowerNukkitX | BDS | Endstone |
+|---|---|---|---|---|
+| Base | PowerNukkitX fork | — | Official | PowerNukkitX-based |
+| Item/Block coverage | Minimal (curated subset) | Extensive | Full (vanilla) | Full (vanilla) |
+| Philosophy | Lightweight, PocketMine-like | Feature-rich | Official reference | Full-featured API layer |
 
-## 🌟 Plugins
+## Installation
 
-Browse community-made plugins for your server in our [Plugin Hub](https://powernukkitx.org/plugins).<br />
-Want to create your own? Our [documentation](https://powernukkitx.org/docs/development) will help you get started.
+*(Add build/run instructions here once available.)*
 
-## 🤝 Contributing to PowerNukkitX
+```bash
+git clone https://github.com/SchleroMC/Reactium.git
+cd Reactium
+# build instructions TBD
+```
 
-Contributions, issues and feature requests are welcome!<br />
-Feel free to check [issues page](https://github.com/PowerNukkitX/PowerNukkitX/issues). Also take a look at
-the [contributing guide](./CONTRIBUTING.md).
+## Contributing
 
-## Give a ⭐️ if this project helped you
+Contributions are welcome! Since Reactium favors a minimal item/block set, please open an issue to discuss significant additions before submitting a PR, so we can keep the scope aligned with the project's goals.
 
-[![Contributors](https://contrib.rocks/image?repo=PowerNukkitX/PowerNukkitX)](https://github.com/PowerNukkitX/PowerNukkitX/graphs/contributors)
+## License
 
-## 📝 License Information
+This project is a fork of PowerNukkitX and retains its original license. See [LICENSE](LICENSE) for details.
 
-This project is licensed under LGPL-3.0. Please see the [LICENSE](/LICENSE) file for details.
+## Credits
+
+- [PowerNukkitX](https://github.com/PowerNukkitX/PowerNukkitX) — the base this project is forked from
+- [Nukkit](https://github.com/CloudburstMC/Nukkit) — original project PowerNukkitX itself derives from
