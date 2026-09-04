@@ -40,7 +40,7 @@ cd Reactium
 
 ## Contributing
 
-Contributions are welcome! Since Reactium favors a minimal item/block set, please open an issue to discuss significant additions before submitting a PR, so we can keep the scope aligned with the project's goals.
+Contributions are welcome! Please open an issue to discuss significant additions before submitting a PR, so we can keep the scope aligned with the project's goals.
 
 ## License
 
