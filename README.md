@@ -1,26 +1,25 @@
 # Reactium
 
-Reactium is a lightweight Minecraft: Bedrock Edition server software, forked from [PowerNukkitX](https://github.com/PowerNukkitX/PowerNukkitX).
+Reactium is a Minecraft: Bedrock Edition server software, forked from [PowerNukkitX](https://github.com/PowerNukkitX/PowerNukkitX).
 
-Unlike BDS, Endstone, or PowerNukkitX itself, Reactium intentionally implements a **smaller subset of items and blocks**, following a minimalist philosophy closer to PocketMine-MP. The goal is a leaner, simpler core that's easier to maintain and extend, rather than full parity with vanilla content.
+It carries over PowerNukkitX's full item/block coverage and performance-oriented architecture, rebranded under the Reactium name. The focus for now is on identity and polish rather than trimming content.
 
 ## Philosophy
 
-- **Minimal by design** — not every item/block from vanilla Bedrock is implemented. If it's rarely used or adds excessive maintenance overhead, it may be left out (at least initially).
 - **Built on proven ground** — Reactium inherits PowerNukkitX's performance-oriented architecture rather than starting from scratch.
 - **Open and modifiable** — released as open source so the community can extend, fork, and adapt it.
 
 ## Status
 
-🚧 Early development / actively forked from PowerNukkitX. Expect missing features, breaking changes, and incomplete item/block coverage while the project stabilizes.
+🚧 Early development / actively forked from PowerNukkitX. Expect missing features and breaking changes while the project stabilizes.
 
 ## Comparison
 
 | | Reactium | PowerNukkitX | BDS | Endstone |
 |---|---|---|---|---|
 | Base | PowerNukkitX fork | — | Official | BDS-based |
-| Item/Block coverage | Minimal (curated subset) | Extensive | Full (vanilla) | Full (vanilla) |
-| Philosophy | Lightweight, PocketMine-like | Feature-rich | Official reference | Plugin API layer over BDS |
+| Item/Block coverage | Full (inherited from PNX) | Extensive | Full (vanilla) | Full (vanilla) |
+| Philosophy | Rebranded PNX derivative | Feature-rich | Official reference | Plugin API layer over BDS |
 
 ## Installation
 
