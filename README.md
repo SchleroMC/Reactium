@@ -1,5 +1,7 @@
 <p align="center">
   <img src=".github/img/logo.png" alt="Reactium Logo" width="20%"/>
+  <br>
+  <b>Reactium — A Legacy-Inspired PowerNukkitX Fork</b>
 </p>
 
 Reactium is a Minecraft: Bedrock Edition server software, forked from [PowerNukkitX](https://github.com/PowerNukkitX/PowerNukkitX).
