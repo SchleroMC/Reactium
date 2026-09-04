@@ -30,7 +30,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "powernukkitx"
+rootProject.name = "reactium"
 
 // Enable Gradle enterprise features for better build insights
 enableFeaturePreview("STABLE_CONFIGURATION_CACHE")

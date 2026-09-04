@@ -26,7 +26,7 @@ plugins {
 
 group = "org.powernukkitx"
 version = providers.gradleProperty("buildVersion").orElse("nightly-SNAPSHOT").get()
-description = "powernukkitx"
+description = "reactium"
 java.sourceCompatibility = JavaVersion.VERSION_21
 java.targetCompatibility = JavaVersion.VERSION_21
 
