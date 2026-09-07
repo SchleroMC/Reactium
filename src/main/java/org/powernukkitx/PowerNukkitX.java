@@ -198,7 +198,7 @@ public class PowerNukkitX {
         if (!configFile.exists() && !hasLegacyConfig && !skipSetup) {
             log.info("First-time setup detected. Running setup wizard...");
             try (SetupWizard wizard = new SetupWizard()) {
-                wizardConfig = wizard.run(language, false, autoAcceptLicense, serverName, port);
+                wizardConfig = wizard.run(language, autoAcceptLicense, serverName, port);
                 if (wizardConfig != null && !wizardConfig.isLicenseAccepted()) {
                     log.error("Setup wizard did not accept the license. Startup cancelled.");
                     return;
@@ -207,11 +207,8 @@ public class PowerNukkitX {
                     language = wizardConfig.getLanguage();
                 }
             } catch (Exception e) {
-                log.error("Failed to run setup wizard", e);
-                log.info("Continuing with default configuration...");
-                if (language == null) {
-                    language = "eng";
-                }
+                log.error("Failed to run setup wizard. Startup cancelled - re-run the server to try the setup wizard again.", e);
+                return;
             }
         } else if (!configFile.exists() && skipSetup) {
             try (SetupWizard wizard = new SetupWizard()) {
