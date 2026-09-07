@@ -28,14 +28,12 @@ It carries over PowerNukkitX's full item/block coverage and performance-oriented
 | Item/Block coverage | Full (inherited from PNX) | Extensive | Full (vanilla) | Full (vanilla) |
 | Philosophy | Rebranded PNX derivative | Feature-rich | Official reference | Plugin API layer over BDS |
 
-## Installation
-
-*(Add build/run instructions here once available.)*
+## 📦 Installation
 
 ```bash
 git clone https://github.com/SchleroMC/Reactium.git
 cd Reactium
-# build instructions TBD
+./gradlew shadowJar
 ```
 
 ## Contributing
