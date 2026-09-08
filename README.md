@@ -4,7 +4,7 @@
   <b>Reactium — A Legacy-Inspired PowerNukkitX Fork</b>
   <br><br>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-LGPL--3.0-yellow?style=plastic" alt="License"></a>
-  <a href="https://github.com/SchleroMC/Reactium/releases"><img src="https://img.shields.io/badge/version-v0.0.1--PROTOTYPE-blue?style=plastic" alt="Version"></a>
+  <a href="https://github.com/SchleroMC/Reactium/releases"><img src="https://img.shields.io/badge/version-v0.1.0--BETA-blue?style=plastic" alt="Version"></a>
 </p>
 
 Reactium is a Minecraft: Bedrock Edition server software, forked from [PowerNukkitX](https://github.com/PowerNukkitX/PowerNukkitX).
